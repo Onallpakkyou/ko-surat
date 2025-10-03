@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kop Surat Responsif</title>
+  <style>
+    body {
+      font-family: "Times New Roman", Times, serif;
+      margin: 20px;
+      background: #fdfdfd;
+      line-height: 1.5;
+    }
+
+    .kop-surat {
+      text-align: center;
+      border-bottom: 3px solid black;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+      position: relative;
+    }
+
+    .kop-surat img {
+      position: absolute;
+      left: 10px;
+      top: 5px;
+      width: 70px;
+      height: auto;
+    }
+
+    .kop-surat h1 {
+      margin: 0;
+      font-size: 1.3rem;
+      text-transform: uppercase;
+    }
+
+    .kop-surat h2 {
+      margin: 0;
+      font-size: 1.1rem;
+    }
+
+    .kop-surat p {
+      margin: 3px 0 0 0;
+      font-size: 0.9rem;
+    }
+
+    .isi-surat {
+      margin-top: 20px;
+      font-size: 1rem;
+    }
+
+    /* Responsif */
+    @media (min-width: 768px) {
+      body {
+        margin: 40px auto;
+        max-width: 800px;
+      }
+
+      .kop-surat img {
+        width: 100px;
+      }
+
+      .kop-surat h1 {
+        font-size: 22px;
+      }
+
+      .kop-surat h2 {
+        font-size: 18px;
+      }
+
+      .kop-surat p {
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="kop-surat">
+    <img src="logo.png" alt="Logo Instansi"> <!-- ganti dengan logo.png -->
+    <h1> INSTITUT KEGURUAN DAN TEKNOLOGI LARANTUKA</h1>
+    <h2>SK DIRJEN DIKTI NO: 272/E/O/2013</h2>
+    <h2>FAKULTAS TEKNOLOGI</h2>
+    <p>Jln. Soekarno Hatta - Desa Tiwatobi - Kec. Ile Mandiri - 86211</p>
+    <p>Kabupaten Flores Timur - Provinsi NTT</p>
+    <p>(Telp/Faks : 0383.2325554) • E-mail: ft@iktl.ac.id • Website: iktl.ac.id</p>
+  </div>
+
+  <div class="isi-surat">
+    <p>Nomor : 001/XX/2025</p>
+    <p>Lampiran : -</p>
+    <p>Perihal : Contoh Kop Surat</p>
+    <br>
+    <p>Kepada Yth.</p>
+    <p>Bapak/Ibu ...........</p>
+    <p>di Tempat</p>
+    <br>
+    <p>Dengan hormat,</p>
+    <p>Isi surat dapat dituliskan di sini...</p>
+  </div>
+</body>
+</html>
